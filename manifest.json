@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "ehgo",
+    "description": "그 사이트에 접속할 수 있습니다",
+    "version": "1.0",
+    "action": {
+        "default_popup": "hello.html"
+    },
+	"permissions": [
+		"tabs"
+	],
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
