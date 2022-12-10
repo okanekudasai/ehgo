@@ -6,9 +6,6 @@
     "action": {
         "default_popup": "hello.html"
     },
-	"permissions": [
-		"tabs"
-	],
     "content_scripts": [
         {
             "js": [
